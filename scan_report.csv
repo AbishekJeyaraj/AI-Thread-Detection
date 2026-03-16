@@ -1,0 +1,9 @@
+source,target,type,ai_decision
+192.168.1.5,192.168.1.1,Normal,✅ SAFE
+192.168.1.10,192.168.1.1,Normal,✅ SAFE
+192.168.1.5,10.0.0.50,Normal,🚫 BLOCKED
+10.0.0.50,99.88.77.66,Malicious,🚫 BLOCKED
+99.88.77.66,192.168.1.1,Malicious,🚫 BLOCKED
+192.168.1.12,192.168.1.1,Normal,✅ SAFE
+99.88.77.66, 192.168.1.1, Normal ,🚫 BLOCKED
+10.87.64.32, 145.231.2.4, normal,✅ SAFE
